@@ -22,7 +22,7 @@ export const projects = [
     description:
       'A modern, elegant personal portfolio built with React and Vite, designed to showcase skills, projects, and contact details in a polished and responsive experience.',
     tools: ['React', 'Bootstrap', 'CSS'],
-    href: githubProfile,
+    href: 'https://github.com/Pavan-7575/my-portfolio',
   },
   {
     title: 'Rock Paper Scissor',
