@@ -50,38 +50,38 @@ A modern and responsive personal portfolio website designed to showcase my skill
 
 ```text
 my-portfolio/
+├── dist/                           # Production build files
+├── node_modules/                   # Project dependencies
 ├── public/
-│   └── favicon.ico
+│   ├── favicon.svg                 # Website favicon
+│   └── icons.svg                   # SVG icons
 │
 ├── src/
-│   ├── assets/
-│   │   ├── profile.png
-│   │   ├── resume.pdf
-│   │   └── images/
+│   ├── assets/                     # Images and static assets
 │   │
 │   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Skills.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Education.jsx
-│   │   ├── Certifications.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
+│   │   ├── Contact.jsx             # Contact section
+│   │   ├── ContentCarousel.jsx     # Carousel component
+│   │   ├── Home.jsx                # Hero section
+│   │   ├── Nav.jsx                 # Navigation bar
+│   │   ├── Projects.jsx            # Projects section
+│   │   └── Skills.jsx              # Skills section
 │   │
 │   ├── data/
-│   │   ├── portfolio.js
-│   │   └── projects.js
+│   │   └── portfolio.js            # Portfolio data
 │   │
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   ├── App.css                     # Application styles
+│   ├── App.jsx                     # Main App component
+│   ├── index.css                   # Global styles
+│   └── main.jsx                    # React entry point
 │
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+├── .gitignore                      # Git ignored files
+├── eslint.config.js                # ESLint configuration
+├── index.html                      # Root HTML file
+├── package.json                    # Project metadata & dependencies
+├── package-lock.json               # Dependency lock file
+├── vite.config.js                  # Vite configuration
+└── README.md                       # Project documentation
 ```
 
 ---
