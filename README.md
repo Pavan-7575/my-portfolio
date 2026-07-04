@@ -20,10 +20,26 @@ A modern, elegant personal portfolio built with React and Vite, designed to show
 
 ## 📁 Project Structure
 
-- src/components — reusable UI sections such as Home, Projects, Skills, and Contact
-- src/data — portfolio content and project details
-- src/assets — images and visual assets
-- public — static files
+Below is the project structure for the Rock-Paper_Scissor mini-project included in this workspace:
+
+```
+Rock-Paper_Scissor/
+├── ASSETS/
+│   ├── 1.png    # Rock image
+│   ├── 2.png    # Paper image
+│   └── 3.png    # Scissors image
+├── CODE/
+│   ├── Game.html
+│   ├── Game.css
+│   └── Game.js
+```
+
+General folders in this portfolio:
+
+- `src/components` — reusable UI sections such as Home, Projects, Skills, and Contact
+- `src/data` — portfolio content and project details
+- `src/assets` — images and visual assets
+- `public` — static files
 
 ## ▶️ Getting Started
 
