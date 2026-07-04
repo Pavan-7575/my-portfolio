@@ -23,15 +23,42 @@ A modern, elegant personal portfolio built with React and Vite, designed to show
 Below is the project structure for the Rock-Paper_Scissor mini-project included in this workspace:
 
 ```
-Rock-Paper_Scissor/
-├── ASSETS/
-│   ├── 1.png    # Rock image
-│   ├── 2.png    # Paper image
-│   └── 3.png    # Scissors image
-├── CODE/
-│   ├── Game.html
-│   ├── Game.css
-│   └── Game.js
+my-portfolio/
+├── public/
+│   └── favicon.ico                 # Website favicon
+│
+├── src/
+│   ├── assets/
+│   │   ├── profile.png             # Profile image
+│   │   ├── resume.pdf              # Resume
+│   │   └── icons/                  # Custom icons/images
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx              # Navigation bar
+│   │   ├── Home.jsx                # Hero section
+│   │   ├── About.jsx               # About section
+│   │   ├── Skills.jsx              # Skills section
+│   │   ├── Projects.jsx            # Projects section
+│   │   ├── Education.jsx           # Education section
+│   │   ├── Certifications.jsx      # Certifications section
+│   │   ├── Contact.jsx             # Contact form
+│   │   └── Footer.jsx              # Footer
+│   │
+│   ├── data/
+│   │   └── portfolio.js            # Portfolio details & project data
+│   │
+│   ├── styles/
+│   │   └── index.css               # Global styles
+│   │
+│   ├── App.jsx                     # Main application component
+│   └── main.jsx                    # React entry point
+│
+├── .gitignore                      # Git ignored files
+├── index.html                      # Root HTML file
+├── package.json                    # Project dependencies
+├── package-lock.json               # Dependency lock file
+├── vite.config.js                  # Vite configuration
+└── README.md                       # Project documentation
 ```
 
 General folders in this portfolio:
