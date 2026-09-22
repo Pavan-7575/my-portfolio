@@ -13,9 +13,26 @@ export const skills = [
   { title: 'Core CS', items: ['DSA', 'OOPS', 'OS', 'DBMS'] },
   { title: 'Tools', items: ['Git', 'GitHub', 'VS Code', 'Postman', 'MS Office'] },
   { title: 'Soft Skills', items: ['Communication', 'Teamwork', 'Problem Solving'] },
+  { title: 'AI & ML', items: ['RAG', 'Vector Embeddings', 'LLMs'] },
 ]
 
 export const projects = [
+  {
+    title: 'Ayusakshi',
+    tag: 'Legal AI Chatbot',
+    description:
+      'A modern, elegant personal portfolio built with React and Vite, designed to showcase skills, projects, and contact details in a polished and responsive experience.',
+    tools: ['React', 'Bootstrap', 'CSS'],
+    href: 'https://github.com/Pavan-7575/my-portfolio',
+  },
+  {
+    title: 'Keeper App',
+    tag: 'Full Stack Web App',
+    description:
+      'A full-stack note app with React, Node.js, Express, and PostgreSQL, supporting creation, editing, categorization, tagging, search, and filtering.Security features include JWT/OAuth2 authentication, password hashing, protected routes, input validation, and rate limiting.It also offers real-time reminders with audio alarms via the Web Audio API, containerized using Docker Compose and Nginx for scalable deployment.',
+    tools: ['React', 'Node.js', 'PostgreSQL'],
+    href: 'https://github.com/Pavan-7575/Keeper-App',
+  },
   {
     title: 'Portfolio Website',
     tag: 'React SPA',
