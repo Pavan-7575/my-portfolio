@@ -21,15 +21,15 @@ export const projects = [
     title: 'Ayusakshi',
     tag: 'Legal AI Chatbot',
     description:
-      'A modern, elegant personal portfolio built with React and Vite, designed to showcase skills, projects, and contact details in a polished and responsive experience.',
-    tools: ['React', 'Bootstrap', 'CSS'],
-    href: 'https://github.com/Pavan-7575/my-portfolio',
+      'A multilingual AI assistant developed as a team project for SIH, featuring Ayurveda IP and regulatory guidance using React, Node.js, PostgreSQL, and RAG for source-grounded legal research, patentability, ABS, and prior-art analysis. It features hybrid retrieval, exact legal citations, Bhashini-powered multilingual support, and human IP facilitator escalation for complex cases.',
+    tools: ['React', 'Node.js', 'PostgreSQL', 'RAG'],
+    href: 'https://github.com/Team-Zenith-SIH-2026/AyuSakshi-IP-SAKTHI-Sahayak-',
   },
   {
     title: 'Keeper App',
     tag: 'Full Stack Web App',
     description:
-      'A full-stack note app with React, Node.js, Express, and PostgreSQL, supporting creation, editing, categorization, tagging, search, and filtering.Security features include JWT/OAuth2 authentication, password hashing, protected routes, input validation, and rate limiting.It also offers real-time reminders with audio alarms via the Web Audio API, containerized using Docker Compose and Nginx for scalable deployment.',
+      'A full-stack note app built with React, Node.js, Express, and PostgreSQL, featuring secure authentication, search, categorization, tagging, and filtering.Includes real-time audio reminders, rate limiting, and Docker Compose + Nginx deployment.',
     tools: ['React', 'Node.js', 'PostgreSQL'],
     href: 'https://github.com/Pavan-7575/Keeper-App',
   },
